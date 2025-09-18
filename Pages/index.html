@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Ninjas Home</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Coding Ninjas!</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="admin.html">Admin</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>About Us</h2>
+        <p>
+          Coding Ninjas is a platform for learning to code. We offer a variety
+          of courses to help you master new skills.
+        </p>
+      </section>
+
+      <section>
+        <h2>Featured Courses</h2>
+        <div>
+          <img
+            src="Digital_Marketing.jpg"
+            alt="Digital Marketing"
+            width="400"
+          />
+          <p>Learn the ins and outs of digital marketing.</p>
+        </div>
+        <div>
+          <img src="data-science.jpg" alt="Data Science" width="400" />
+          <p>Dive into the world of data with our data science courses.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Feedback Form</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="feedback">Feedback:</label><br />
+          <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea
+          ><br /><br />
+
+          <input type="submit" value="Submit Feedback" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Coding Ninjas</p>
+      <img src="facebook.png" alt="Facebook logo" width="50" />
+    </footer>
+  </body>
 </html>
