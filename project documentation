@@ -1,0 +1,83 @@
+# Coding-Ninjas-html-website
+
+This repository contains a comprehensive HTML-based website project developed as part of the Coding Ninjas learning curriculum. The project is designed to help beginners understand the core concepts of web development, focusing on:
+
+- **HTML5**: Semantic markup, page structuring, and best practices for building accessible web pages.
+
+---
+
+## Project Overview
+
+**Repository:** [Coding-Ninjas-html-website](https://github.com/sushanthacharya2003/Coding-Ninjas-html-website)  
+**Main Language:** HTML  
+**Purpose:** Educational website project for the Coding Ninjas curriculum  
+**Owner:** sushanthacharya2003
+
+---
+
+## Design Documentation
+
+### 1. Project Structure
+
+The project is structured to separate concerns and promote readability. Typical folders/files you might find (noting exact structure is not listed due to API limitations):
+
+- `/assets` – Images, fonts, icons, and supporting files.
+- `/css` – Stylesheets, including main and modular CSS files.
+- `/js` – JavaScript files (if any interactive components exist).
+- `/pages` or root `.html` files – Home, About, Contact, Menu, etc.
+- `/README.md` – Project documentation.
+- `/tests` – (If present) Contains test scripts or manual test documentation.
+
+### 2. Layout & Components
+
+- **Header:** Contains logo, navigation menu, and possibly a call-to-action.
+- **Main Content:** Varies by page. Could include:
+  - Hero sections
+  - Feature highlights
+  - Menus or course listings
+  - About and contact forms
+- **Footer:** Social links, copyright, and additional navigation.
+
+### 3. Design Principles
+
+- **Semantic HTML:** Uses tags like `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>`.
+- **Responsive Design:** Mobile-friendly layouts using media queries.
+- **Accessibility:** Proper use of ARIA labels and alt tags for images.
+- **Reusability:** Modular CSS classes and components for consistent look and feel.
+
+---
+
+## Test Cases
+
+### Manual Test Cases
+
+| Test Case ID | Description                                     | Steps                                                                 | Expected Result                   |
+|--------------|-------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------|
+| TC01         | Navigation links work                           | Click each navigation link                                            | User is taken to correct section  |
+| TC02         | Page loads without broken images                | Load each page                                                        | All images appear as intended     |
+| TC03         | Responsive design on mobile                     | Open site on various devices or use browser dev tools                 | Layout adjusts, no horizontal scroll|
+| TC04         | Contact form validation (if present)            | Submit empty or invalid form                                          | Error messages are shown          |
+| TC05         | Accessibility: alt text on images               | Inspect image elements                                                | All images have descriptive alt   |
+| TC06         | Footer links                                    | Click each footer link                                                | Correct external/internal dest.   |
+| TC07         | Semantic markup                                 | Inspect HTML structure                                                | Uses semantic tags appropriately  |
+
+### (Optional) Automated Testing
+
+If JavaScript is used, consider:
+
+- **Lighthouse Audit:** Check for accessibility, SEO, and performance.
+- **HTML/CSS Validators:** Use W3C validators to ensure standards compliance.
+
+---
+
+## Contribution & Further Development
+
+- Fork the repository and create feature branches for new changes.
+- Adhere to the coding standards outlined in the repository.
+- Submit descriptive pull requests for review.
+
+---
+
+## Summary
+
+This project serves as a practical introduction to HTML5 and web design best practices, with a focus on clarity, accessibility, and modularity. The test cases above help ensure the website’s functionality, responsiveness, and usability.
