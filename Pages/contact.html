@@ -3,29 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
+    <title>Contact Us - Coding Ninjas</title>
   </head>
   <body>
+    <!-- Header Section -->
     <header>
       <img
         src="../Multimedia/new_cn_logo.svg"
         alt="Coding Ninjas Logo"
-        width="100"
+        width="200"
       />
       <h1>Contact Us</h1>
+      <!-- Navigation -->
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="admin.html">Admin</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="admin.html">Admin</a>
       </nav>
     </header>
 
     <main>
+      <!-- Contact Details -->
+      <section>
+        <h2>Get in Touch</h2>
+        <p>
+          Email:
+          <a href="mailto:support@codingninjas.com">support@codingninjas.com</a>
+        </p>
+        <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+      </section>
+
+      <!-- Google Map -->
       <section>
         <h2>Our Location</h2>
         <iframe
@@ -33,11 +44,47 @@
           width="600"
           height="450"
           style="border: 0"
-          allowfullscreen=""
+          allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        >
+        </iframe>
+      </section>
+
+      <!-- Feedback Form -->
+      <section>
+        <h2>Send Us Your Feedback</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Feedback Form</legend>
+
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="subject">Subject:</label><br />
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+            /><br /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" required></textarea
+            ><br /><br />
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
       </section>
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Coding Ninjas. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
